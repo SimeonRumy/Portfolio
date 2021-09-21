@@ -32,14 +32,20 @@ p {
 }
 
 .container {
+    padding: 20px 0 20px 0;
     display: flex;
-    height: 55vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     object-fit: contain;
     text-align: center;
 }
+
+    .container p {
+        max-width: 50%;
+    }
+
+
 
 .light {
     background-color: #F9F3DF;
@@ -62,14 +68,42 @@ p {
     margin-left: 20em;
 }
 .image {
-    max-height: 70%;
+    max-height: 45vh;
     max-width: 100%;
 }
 
 @media screen and (max-width: 980px) {
 
-    .container {
-        height: 80vh;
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .image {
+        max-height: 70vh;
+        max-width: 100%;
+    }
+
+    .container p {
+        max-width: 95%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+   p {
+        font-size: 1em;
     }
 
 }
