@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+		<title>Dolly App</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <!-- Bootstrap Scripts -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+         <!-- CSS Stylesheets -->
+		<link rel="stylesheet" href="assets/css/jung.css" />
+
+          <!-- Navigation Scripts -->
+        <script>
+            function download_app_ios()
+            {
+                location.href = 'https://apple.co/3kujvj7';
+            } 
+        </script>
+
+	</head>
+    <div class="hero-container">
+        <div class="title-container">
+            <h1>Sveiki App - SRS Driven Language Learning App</h1>
+            <button type="button" class="btn btn-dark btn-lg download-button" onclick=" download_app_ios()"><i class="fab fa-apple"></i> Download</button>
+        </div>
+        
+
+    </div>
+    <div class="my-container light-s">
+        <h3>Organise your decks using folders with a suite of editing features.</h3>
+        <p>Used Table Views and Collection Views.</p>
+        <img class="image" src="images/individual _sveiki/MainMenuComb.png" alt="iphone-mockup">
+        
+    </div>
+    <div class="my-container dark-s">
+        <h3>Add new cards: unlimited number of sides, any length text, audio, and images.</h3>
+        <p>Used Nested Collection and Table Views with custom Header View. Integrated Giphy API, WebKit, SDWebImage,and AV Foundation.</p>
+        <iframe class="video" src="https://www.youtube.com/embed/5tTHZUZTYv8"></iframe>
+    </div>
+    <div class="my-container light-s">
+        <h3>Review all time statistics. Set goals and get rewarded for keeping streaks.</h3>
+        <p>Used Collection Views with programmatically built custom cells combined with Charts library and custom sorting algorithms.</p>
+        <img class="image" src="images/individual _sveiki/MainDashboard.png" alt="iphone-mockup">
+    </div>
+    <div class="my-container dark-s">
+        <h3>Configure review settings and view statistics for each deck separatley. Use review modes to temporarily change review without modifying settings. </h3>
+        <!-- <p>Used Charts library.</p> -->
+        <img class="image" src="images/individual _sveiki/CombinedPrepView.png" alt="iphone-mockup">
+    </div>
+    <div class="my-container light-s">
+        <h3>Review cards by swiping left if you fail and right if you are correct. Scroll down to see all text and tap to see next card side. If text mode is enabled type the answer and card will flip automatically.</h3>
+        <p>Created s SwipeView, a custom reusable view, using coordinates to track location of card and update card state.</p>
+        <img class="image" src="images/individual _sveiki/ReviewCardMistake.png" alt="iphone-mockup">
+    </div>
+    <div class="my-container dark-s">
+        <h3>View statistical breakdown after each sprint or session.</h3>
+        <!-- <p>Used Collection View with custom header. Used Firebase Storage to store profile pictures and Firebase Cloud to store metadata.</p> -->
+        <img class="image" src="images/individual _sveiki/EndReview.png" alt="iphone-mockup">
+    </div>
+</html>

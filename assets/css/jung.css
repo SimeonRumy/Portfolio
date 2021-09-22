@@ -1,3 +1,6 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+
 h1 {
     font-size: 3.5em;
     margin: 0 0 1em 0;
@@ -17,6 +20,11 @@ p {
     font-size: 1.5em;
 }
 
+ul {
+    text-align: left;
+    font-size: 1.5em;
+}
+
 .hero-container {
     height: 30vh;
     width: 100%;
@@ -31,7 +39,7 @@ p {
     text-align: center;
 }
 
-.container {
+.my-container {
     padding: 20px 0 20px 0;
     display: flex;
     flex-direction: column;
@@ -41,18 +49,31 @@ p {
     text-align: center;
 }
 
-    .container p {
-        max-width: 50%;
+    .my-container p, h3 {
+        max-width: 60%;
     }
 
 
 
-.light {
+.light-j {
     background-color: #F9F3DF;
 }
 
-.dark {
+.dark-j {
     background-color: #FFEBC9;
+}
+
+.light-s {
+    background-color: #DFEEEA;
+}
+
+.dark-s {
+    background-color: #f8fffd;
+}
+
+.image {
+    max-height: 45vh;
+    max-width: 100%;
 }
 
 .title-container {
@@ -67,9 +88,10 @@ p {
     transform: rotate(25deg);
     margin-left: 20em;
 }
-.image {
-    max-height: 45vh;
-    max-width: 100%;
+
+.video {
+    height: 55vh;
+    width: 80vw;
 }
 
 @media screen and (max-width: 980px) {
@@ -83,7 +105,7 @@ p {
         max-width: 100%;
     }
 
-    .container p {
+    .my-container p, h3 {
         max-width: 95%;
     }
 
@@ -105,5 +127,10 @@ p {
    p {
         font-size: 1em;
     }
+
+   .btn {
+       max-width: 80%;
+       font-size: 1em;
+   }
 
 }
