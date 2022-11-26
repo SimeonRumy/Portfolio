@@ -53,7 +53,13 @@ ul {
         max-width: 60%;
     }
 
+.light-cgi {
+    background-color: #FF6464;
+}
 
+.dark-cgi {
+    background-color: #F8C4B4;
+}
 
 .light-j {
     background-color: #F9F3DF;
