@@ -108,9 +108,9 @@ ul {
 
 /* Basic styling for the image carousel */
 .carousel-container {
-    flex-direction: row;
+    flex-direction: column;
     position: relative;
-    width: 50%;
+    width: 56%;
     height: 100%;
     margin: auto;
     overflow: hidden;
@@ -123,8 +123,8 @@ ul {
 }
 
 .carousel img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
     object-fit: contain;
     flex-shrink: 0;
 }
