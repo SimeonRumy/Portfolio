@@ -110,7 +110,7 @@ ul {
 .carousel-container {
     flex-direction: column;
     position: relative;
-    width: 56%;
+    width: 50%;
     height: 100%;
     margin: auto;
     overflow: hidden;
